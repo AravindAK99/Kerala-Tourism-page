@@ -70,21 +70,28 @@
             <section class="tm-content tm-contact">
                 <p class="mb-4 tm-content-title lead fs-1 ">Welcome...!</p>
                 <p class="mb-85 fs-4 lead">Please enter the details to signup.</p>
-                <form id="contact-form bg" action="districts.html" onsubmit="return svalidate()">
+                <form id="contact-form bg" action="districts.html" onsubmit="return validate()">
                     <div class="form-group  mb-4">
-                        <input type="text" name="name" class="form-control" placeholder="Please enter a userame">
+                        <input type="text" name="name" id="user" class="form-control" placeholder="Please enter a userame">
+                         <span id="username" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-4">
-                        <input type="email" id="semail" class="form-control" placeholder="Your email id">
+                        <input type="email"  id="emailid" class="form-control" placeholder="Your email id">
+                        <span id="mailsp" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-4">
                         <input type="text" id="phone" class="form-control" placeholder="Your phone number">
+                        <span id="numbersp" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-4">
-                        <input type="password" id="password1" class="form-control" placeholder="Enter a password">
+                        <input type="password" id="password" class="form-control" placeholder="Enter a password">
+                         <span id="passworderror" class="text-success"></span>
+                        <span id="passworderror1" class="text-warning"></span>
+                        <span id="passworderror2" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-4">
-                        <input type="password" id="password2" class="form-control" placeholder="Re-enter password">
+                        <input type="password" id="confirmpassword" class="form-control" placeholder="Re-enter password">
+                        <span id="confirmpassworderror" class="text-danger"></span>
                     </div>
     
                     
@@ -184,7 +191,7 @@
 
   
  
-
+  <script src="./scrpt.js"></script>
   <script src="https://kit.fontawesome.com/727c967296.js" crossorigin="anonymous"></script>
    
 
