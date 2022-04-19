@@ -1,5 +1,5 @@
 
- 
+
 function validation(){
     var user = document.getElementById("user").value
     var password = document.getElementById("passwordlog").value
