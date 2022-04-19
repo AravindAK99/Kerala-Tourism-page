@@ -99,6 +99,6 @@ function validate(){
         return false
       }
        
-alert("successfully created account")
+alert("account created successful")
 
     }
