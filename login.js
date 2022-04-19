@@ -23,6 +23,7 @@ function validation(){
        if(emailcheck.test(user)){
         document.getElementById('username').innerHTML=""
       
+      
       }
       else{
        document.getElementById('username').innerHTML="invalid </br>(tip:no special character in username)"
