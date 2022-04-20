@@ -45,3 +45,13 @@ function validation(){
        
       
     }
+
+
+    function myFunction() {
+      var x = document.getElementById("passwordlog");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
