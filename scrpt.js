@@ -6,7 +6,7 @@ function validate(){
     var confirmpassword = document.getElementById("confirmpassword").value
    
 
-     var usercheck = /^([A-Za-z0-9]{5,15})[0-9]?$/
+     var usercheck = /^([A-Za-z0-9]{5,15})$/
      var emailcheck = /^[a-zA-Z0-9_]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,3}$/
      var numcheck = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
      var passwordcheck =  /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}$/
