@@ -22,7 +22,7 @@ function validation(){
       
       }
       else{
-       document.getElementById('username').innerHTML="invalid id)"
+       document.getElementById('username').innerHTML="invalid id"
        return false
       }
     
