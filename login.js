@@ -35,11 +35,13 @@ function validation(){
 
      if(passwordcheck1.test(password)){
         document.getElementById('passworderror').innerHTML=""
-        
+         
+         alert("successfuly logged in!!")
+         return true
       } else{
         document.getElementById('passworderror').innerHTML="invalid password"
         return false
        } 
-     alert("successfuly logged in!!")   
+       
       
     }
