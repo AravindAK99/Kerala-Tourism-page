@@ -12,8 +12,9 @@ function validation(){
     // // user   
      
    if(usercheck.test(user)){
-        document.getElementById('username').innerHTML="dssss"
+        document.getElementById('username').innerHTML=""
         return false}
+    
         
         
         
