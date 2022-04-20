@@ -22,7 +22,7 @@ function validation(){
       
       }
       else{
-       document.getElementById('username').innerHTML="invalid </br>(tip:no special character in username)"
+       document.getElementById('username').innerHTML="invalid id)"
        return false
       }
     
